@@ -67,7 +67,7 @@ class BibliotecaTest {
 
         assertSame(primeiro, a.next());
         assertSame(segundo, a.next());
-        assertSame(primeiro, b.next());   // b não é afetado pelo avanço de a
+        assertSame(primeiro, b.next());
     }
 
     @Test
